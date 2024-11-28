@@ -20,7 +20,6 @@ solve_puzzle(Houses, GreenIndex) :-
 
 
 next_to(X, Y, [X,Y|_]).
-next_to(X,Y, [Y,X| _]).
 next_to(X, Y, [_|T]) :-
  next_to(X, Y, T).
 
